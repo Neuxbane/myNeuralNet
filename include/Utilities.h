@@ -1,3 +1,4 @@
+#pragma once
 #include <math.h>
 
 float E = 2.71828;

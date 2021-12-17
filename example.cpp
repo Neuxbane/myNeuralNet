@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "include/NeuxbaneNet.hpp"
+#include "include/NeuxbaneNet.h"
 
 /*
 TODO: (X = Incomplete, V = Complete, O = Onprogress)
@@ -19,6 +19,6 @@ Neural Network:
 */
 
 int main(){
-    std::cout<<ELU(10)<<'\n';
-    std::cout<<ELU(-1)<<'\n';
+    Netsh a;
+    a.
 }
