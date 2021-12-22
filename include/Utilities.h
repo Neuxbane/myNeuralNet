@@ -3,6 +3,14 @@
 
 float E = 2.71828;
 
+double drand(){
+	return ((double) rand()/0x7fffffff)*2-1;
+}
+
+double randomd(){
+	return (double) rand()/0x7fffffff;
+}
+
 float ReLU(float x){
     return x>0?x:0;// if (x > 0) return x; else 0;
 }
